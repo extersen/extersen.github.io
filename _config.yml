@@ -1,0 +1,22 @@
+title: devlog
+description: Notatki z budowania rzeczy — kod, sprzęt, eksperymenty.
+author: Wiktor Grzybowski
+lang: pl
+
+# Dla repo "twoj-login.github.io" zostaw baseurl pusty.
+# Dla zwykłego repo, np. "devblog", ustaw baseurl: "/devblog"
+url: "https://twoj-login.github.io"
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
